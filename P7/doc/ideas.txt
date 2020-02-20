@@ -1,0 +1,9 @@
+流水线寄存器：添加ExceptionCode，5位
+IFU --- 不对齐/超界给一个nop，并且改excCode
+
+SR初始值：0x0000fc03
+IM[7:2] --- 6'b111111
+EXL --- 1'b0
+IE --- 1'b1
+
+!! mult - beq - mult
